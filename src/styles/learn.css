@@ -1,0 +1,244 @@
+/* blue #007AD1 
+   green #6D9F00*/
+.smallText
+{
+  /*font-family:verdana;*/
+	font-size:11px;
+}
+
+.borderBox
+{
+  margin:10px;
+  border: 3px double #59B9D1  ;
+  /*border: 3px double #AACC55;*/
+}
+#editBox
+{
+  
+  position  :relative;
+  top       :-130px;
+  width     :750px;
+  margin-top:0px;
+  margin-bottom:-100px;
+  border-left: 1px solid #CCCCCC;
+  border-top : 1px solid #CCCCCC;
+  border-right : 3px solid #AAAAAA;
+  border-bottom : 3px solid #AAAAAA;
+  background: #EEEEEE;
+  visibility:hidden;
+  margin-left:auto;
+  margin-right:auto;
+  font-size :12px;
+  
+}
+#learnBox
+{
+  /*margin-top:20px; - not working in IE, use <br> instead */
+  margin-left:auto;
+  margin-right:auto;
+  /*font-family:arial;*/
+  border:1px solid #CCCCCC;
+  height:370px;
+}
+#listNameCell
+{
+  font-size:14px;
+  font-weight:bold;
+}
+#editLink
+{
+  /*font-family:verdana;*/
+	font-size:11px;
+}
+#statusbar
+{
+  font-size:12px;
+  text-align:center;
+  height:15px;
+}
+#demoMessage
+{
+  width:450px;
+  height:34px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+  padding:10px;
+  text-align:center;
+  background:#FFFFBB;
+  border:1px solid #CCCCCC;
+}
+.vertTableBorder
+{
+  border-top:1px solid #CCCCCC;
+  padding-top:5px;
+}
+#wordStats
+{
+  width:230px;
+  height:120px;
+  margin-top:23px;
+  border:1px solid #CCCCCC;
+}
+#worstWords
+{
+  width:280px;
+  height:150px;
+  margin-top:30px;
+  border:1px solid #CCCCCC;
+}
+#progressBar
+{
+  position:relative;
+  top:5px;
+  width:264px;
+  height:20px;
+}  
+
+.progressBarSeg, .progressBarSegLeft, .progressBarSegRight 
+{
+  float:left;
+  width:13px;
+  height:20px;
+  border-top:1px solid #cccccc;
+  border-bottom:1px solid #cccccc;
+  padding-top:1px;
+  padding-bottom:1px; /* change to 0/1 for segments/solid, also change width of this and seg2 by +-1*/
+  padding-left:0px;
+}
+.progressBarSegLeft
+{
+  border-left:1px solid #cccccc;
+  padding-left:1px; /* remove for segments */
+}
+.progressBarSegRight
+{
+  
+  border-right:1px solid #cccccc;
+  padding-right:1px;
+}
+.progressBarSeg2
+{
+  
+  width:13px;
+  height:20px;
+  background:white;
+  
+}
+#checkProgressBarText
+{
+  position:relative;
+  top:-14px;
+  left:0px;
+  text-align:center;
+  padding-top:3px;
+  width:264px;
+  height:20px;
+  font-size:12px;
+  color:#DDDDDD;
+}
+#checkProgress
+{
+  color:#666666;
+  font-size:14px;
+  padding-bottom:7px;
+}
+#tooltip, #tooltipRepeat, #tooltipInverse,#tooltipCheckpoint, #tooltipIgnore
+{
+  font-size:11px;
+  color:black;
+  text-align:left;
+  background:#FFFFBB;
+  padding:7px;
+  border:1px solid #CCCCCC;
+}
+#tooltipRepeat
+{
+  position:absolute;
+  right:250px;
+  top:190px;
+  width:255px;
+  height:45px;
+  visibility:hidden;
+} 
+#tooltipInverse
+{
+  position:absolute;
+  right:250px;
+  top:210px;
+  width:255px;
+  height:30px;
+  visibility:hidden;
+}
+#tooltipIgnore
+{
+  position:absolute;
+  right:250px;
+  top:230px;
+  width:266px;
+  height:30px;
+  visibility:hidden;
+}
+#tooltipCheckpoint
+{
+  position:absolute;
+  left:-50px;
+  top:25px;
+  z-index:1;
+  width:360px;
+  height:48px;
+  visibility:hidden;
+}
+#meaningDiv
+{
+  padding-top:10px;
+  height:40px;
+  width:300px;
+  font-size:15px;
+}
+#wordsDiv
+{
+  color:#333322;
+}
+#feedback
+{
+  font-weight:bold;
+  color:#555542;
+  font-size:15px;
+}
+#feedbackTable table
+{
+  border-collapse: collapse;
+}
+.feedTableHeading, .feedTableHeadingBottom, .feedTableHeadingTop
+{
+  background:#EEEEEE;
+  border-right:1px solid #AAAAAA;
+  border-bottom:1px dotted #DDDDDD;
+  border-left:1px solid #AAAAAA;
+  text-align:right;
+  padding:2px;
+  padding-right:10px;
+}
+.feedTableHeadingBottom
+{
+  border-bottom:1px solid #AAAAAA;
+}
+.feedTableHeadingTop
+{
+  border-top:1px solid #AAAAAA;
+}
+.feedTableCell, .feedTableTopCell, .feedTableBottomCell
+{
+  border-right:1px solid #AAAAAA;
+  border-bottom:1px dotted #DDDDDD;
+  padding-left:10px;
+}
+.feedTableTopCell
+{
+  border-top:1px solid #AAAAAA;
+}
+.feedTableBottomCell
+{
+  border-bottom:1px solid #AAAAAA;
+}
